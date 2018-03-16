@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/example-websocket/example-websocket.iml" filepath="$PROJECT_DIR$/example-websocket/example-websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-websocket.iml" filepath="$PROJECT_DIR$/java-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/jetty-websocket/jetty-websocket.iml" filepath="$PROJECT_DIR$/jetty-websocket/jetty-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/tomcat-websocket/tomcat-websocket.iml" filepath="$PROJECT_DIR$/tomcat-websocket/tomcat-websocket.iml" />
-      <module fileurl="file://$PROJECT_DIR$/websocket.iml" filepath="$PROJECT_DIR$/websocket.iml" />
     </modules>
   </component>
 </project>

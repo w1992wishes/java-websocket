@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="tomcat-websocket:war exploded">
-    <output-path>$PROJECT_DIR$/tomcat-websocket/target/tomcat-websocket</output-path>
+  <artifact type="exploded-war" name="example-websocket:war exploded">
+    <output-path>$PROJECT_DIR$/example-websocket/target/example-websocket</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="tomcat-websocket" />
+          <element id="module-output" name="example-websocket" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.0.2.RELEASE" />
@@ -24,9 +24,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/tomcat-websocket/target/tomcat-websocket/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/example-websocket/target/example-websocket/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="tomcat-websocket/web/Web" />
+      <element id="javaee-facet-resources" facet="example-websocket/web/Web" />
     </root>
   </artifact>
 </component>

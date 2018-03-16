@@ -8,6 +8,7 @@
     <modules>
         <module>tomcat-websocket</module>
         <module>jetty-websocket</module>
+        <module>example-websocket</module>
     </modules>
     <name>websocket Maven Webapp</name>
     <url>http://maven.apache.org</url>
@@ -38,10 +39,29 @@
             <artifactId>spring-context-support</artifactId>
             <version>${spring.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.7</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.44</version>
+        </dependency>
+
     </dependencies>
 
     <build>
-        <finalName>websocket</finalName>
+        <finalName>java-websocket</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>

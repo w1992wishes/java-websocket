@@ -7,60 +7,34 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.1992wishes.websocket</groupId>
-    <artifactId>jetty-websocket</artifactId>
+    <artifactId>example-websocket</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>jetty-websocket Maven Webapp</name>
+    <name>example-websocket Maven Webapp</name>
     <url>http://maven.apache.org</url>
-
-    <properties>
-        <!-- spring版本号 -->
-        <websocket.version>9.4.6.v20170531</websocket.version>
-    </properties>
-
     <dependencies>
-        <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-server</artifactId>
-            <version>${websocket.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-servlets</artifactId>
-            <version>${websocket.version}</version>
-        </dependency>
-
         <dependency>
             <groupId>org.eclipse.jetty.websocket</groupId>
             <artifactId>websocket-server</artifactId>
-            <version>${websocket.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-webapp</artifactId>
-            <version>${websocket.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-annotations</artifactId>
-            <version>${websocket.version}</version>
+            <version>9.4.6.v20170531</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
     <build>
-        <finalName>jetty-websocket</finalName>
+        <finalName>example-websocket</finalName>
         <plugins>
             <!-- jetty插件 -->
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
-                <version>${websocket.version}</version>
+                <version>9.4.6.v20170531</version>
                 <configuration>
                     <httpConnector>
                         <port>8080</port>
                     </httpConnector>
                     <scanIntervalSeconds>3</scanIntervalSeconds>
                     <webApp>
-                        <contextPath>/</contextPath>
+                        <contextPath>/example</contextPath>
                     </webApp>
                     <reload>automatic</reload>
                 </configuration>
