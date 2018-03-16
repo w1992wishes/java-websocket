@@ -1,70 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb2ddc2-c0a3-451f-bc86-9205b9d433c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/example_websocket_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/example_websocket_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example-websocket/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example-websocket/src/main/java/me/w1992wishes/example_websocket/message/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example-websocket/src/main/java/me/w1992wishes/example_websocket/message/MessagePusher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example-websocket/src/main/java/me/w1992wishes/example_websocket/message/MessagePusherImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example-websocket/src/main/java/me/w1992wishes/example_websocket/socketserver/domain/SocketRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example-websocket/src/main/java/me/w1992wishes/example_websocket/socketserver/domain/SocketResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example-websocket/src/main/java/me/w1992wishes/example_websocket/socketserver/websocket/MyWebsocket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example-websocket/src/main/java/me/w1992wishes/example_websocket/socketserver/websocket/MyWebsocketDispatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example-websocket/src/main/java/me/w1992wishes/example_websocket/socketserver/websocket/MyWebsocketHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example-websocket/src/main/java/me/w1992wishes/example_websocket/socketserver/websocket/MyWebsocketServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example-websocket/src/main/java/me/w1992wishes/example_websocket/timer/MessageTimer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example-websocket/src/main/java/me/w1992wishes/example_websocket/util/ApplicationContextUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example-websocket/src/main/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example-websocket/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example-websocket/src/main/webapp/js/MyWebsocket.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_annotations_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_jndi_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_plus_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_2_23_v20171218.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_5_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_5_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java-websocket.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jetty-websocket/jetty-websocket.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jetty-websocket/target/classes/me/w1992wishes/jetty_websocket/TomcatWebSocket.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jetty-websocket/target/tmp/jsp/org/apache/jsp/index_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jetty-websocket/target/tmp/jsp/org/apache/jsp/index_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat-websocket/target/classes/me/w1992wishes/simplewebsocket/WebSocketTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat-websocket/target/tomcat/conf/logging.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat-websocket/target/tomcat/conf/tomcat-users.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat-websocket/target/tomcat/conf/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat-websocket/target/tomcat/logs/access_log.2018-03-15" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat-websocket/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat-websocket/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat-websocket/tomcat-websocket.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jetty_websocket_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jetty_websocket_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/tomcat_websocket_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/tomcat_websocket_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jetty-websocket/pom.xml" afterPath="$PROJECT_DIR$/jetty-websocket/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jetty-websocket/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/jetty-websocket/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-    </list>
+    <list default="true" id="adb2ddc2-c0a3-451f-bc86-9205b9d433c4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/jetty-websocket/target/" />
     <ignored path="$PROJECT_DIR$/tomcat-websocket/target/" />
@@ -236,16 +173,6 @@
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java-websocket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="java-websocket" />
@@ -786,12 +713,12 @@
       <workItem from="1521105974661" duration="2822000" />
       <workItem from="1521160639569" duration="12220000" />
       <workItem from="1521177482770" duration="4485000" />
-      <workItem from="1521182027425" duration="3816000" />
+      <workItem from="1521182027425" duration="4227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23343000" />
+    <option name="totallyTimeSpent" value="23754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
